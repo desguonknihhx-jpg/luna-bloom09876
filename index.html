@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Bloom Menu</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body-tag">
+    <header>
+        <h1 id="brand-name">Luna Bloom</h1>
+        <div class="lang-container">
+            <button class="lang-btn" id="langBtn">
+                <i class="fas fa-language"></i> <span id="btn-text">زمان</span>
+            </button>
+            <div class="lang-dropdown" id="langBox">
+                <div class="lang-option" onclick="changeLang('ku')">بادينى</div>
+                <div class="lang-option" onclick="changeLang('ar')">العربية</div>
+                <div class="lang-option" onclick="changeLang('en')">English</div>
+                <div class="user-info">
+                    <strong>ئامادەکرن: رەیان یوسف الدوسكى</strong><br>
+                    07503206040
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-scroll" id="cat-container">
+    <div class="category-item" onclick="filterCategory('mojito', this)">
+        <i class="fas fa-glass-martini-alt"></i>
+        <span>Mojito</span>
+    </div>
+
+    <div class="category-item" onclick="filterCategory('icecream', this)">
+        <i class="fas fa-ice-cream"></i>
+        <span>Ice Cream</span>
+    </div>
+
+    <div class="category-item" onclick="filterCategory('hot', this)">
+        <i class="fas fa-coffee"></i>
+        <span>Hot</span>
+    </div>
+
+    <div class="category-item" onclick="filterCategory('waffle', this)">
+        <i class="fas fa-stroopwafel"></i>
+        <span>Waffle</span>
+    </div>
+
+    <div class="category-item" onclick="filterCategory('juice', this)">
+        <i class="fas fa-wine-glass-alt"></i>
+        <span>Juice</span>
+    </div>
+
+<div class="category-item" onclick="filterCategory('cupcake', this)">
+    <i class="fas fa-cake-candles"></i>
+    <span>Cupcake</span>
+</div>
+
+<div class="category-item" onclick="filterCategory('croissant', this)">
+    <i class="fas fa-bread-slice"></i>
+    <span>Croissant</span>
+</div>
+</div>
+</nav>
+
+    <div id="menu-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
