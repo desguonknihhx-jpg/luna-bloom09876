@@ -27,7 +27,7 @@ const menuData ={
             { name: 'Espresso Double', img: 'espresso-double.jpg', price: '4,000' },
             { name: 'Americano', img: 'americano.jpg', price: '4,000' },
             { name: 'Cappuccino', img: 'cappuccino.jpg', price: '4,500' },
-            { name: 'Spanish Latte', img: 'spanishhot.jpg', price: '4,500' },
+            { name: 'Spanish Latte', img: 'spanish hot.jpg', price: '4,500' },
             { name: 'Latte Caramel', img: 'caramel hot.jpg', price: '4,500' },
             { name: 'Tea Regular', img: 'tea.jpg', price: '500' },
             { name: 'Green Tea', img: 'green tea.jpg', price: '3,500' },
@@ -40,7 +40,7 @@ const menuData ={
         items: [
             { name: 'Ice Latte', img: '1.jpg', price: '4,000' },
             { name: 'Spanish Late', img: 'spanish latte.jpg', price: '4,500' },
-            { name: 'Caramel Latte', img: 'rra.jpg', price: '4,500' },
+            { name: 'Caramel Latte', img: '22.jpg', price: '4,500' },
             { name: 'Luna Bloon Late', img: 'l ice.jpg', price: '5,000' },
             { name: 'Ice Americano', img: 'a.jpg', price: '4,000' }
         ]
@@ -80,7 +80,7 @@ const menuData ={
         items: [
             { name: 'Waffle Luna Bloom', img: 'pumpkin-waffles-12.jpg', price: '4,500' },
             { name: 'Waffle Chocolate', img:'waf.jpg', price: '4,500' },
-            { name: 'Waffle Fruits', img: 'aaa 10.jpg', price: '5,000' },
+            { name: 'Waffle Fruits', img: '0.jpg', price: '5,000' },
             { name: 'Waffle Pistachio', img: 'p.jpg', price: '4,000' },
             { name: 'Waffle Kinder', img: 'k ww.jpg', price: '4,500' },
             { name: 'Waffle Lotus', img: 'l ww.jpg', price: '4,000' }
