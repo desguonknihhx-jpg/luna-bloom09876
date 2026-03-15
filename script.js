@@ -27,7 +27,7 @@ const menuData ={
             { name: 'Espresso Double', img: 'espresso-double.jpg', price: '4,000' },
             { name: 'Americano', img: 'americano.jpg', price: '4,000' },
             { name: 'Cappuccino', img: 'cappuccino.jpg', price: '4,500' },
-            { name: 'Spanish Latte', img: 'spanish hot.jpg', price: '4,500' },
+            { name: 'Spanish Latte', img: 'spanishhot.jpg', price: '4,500' },
             { name: 'Latte Caramel', img: 'caramel hot.jpg', price: '4,500' },
             { name: 'Tea Regular', img: 'tea.jpg', price: '500' },
             { name: 'Green Tea', img: 'green tea.jpg', price: '3,500' },
