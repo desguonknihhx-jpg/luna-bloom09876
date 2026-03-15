@@ -4,19 +4,19 @@ const menuData ={
         icon: 'fa-glass-martini-alt',
         items: [
             { name: 'Blue Hawaii (Soda)', img: 'b.jpg', price: '4,000' },
-            { name: 'Blue Hawaii (Redbull)', img: 'bl-r.jpg', price: '4,500' },
-            { name: 'Strawberry (Soda)', img: 'strawbery-soda.jpg', price: '4,000' },
-            { name: 'Strawberry (Redbull)', img: 'b-r.jpg', price: '4,500' },
-            { name: 'Classic (Soda)', img: 'classic-mojito-soda.jpg', price: '3,500' },
-            { name: 'Classic (Redbull)', img: 'c-r.jpg', price: '4,500' }
+            { name: 'Blue Hawaii (Redbull)', img: 'bl r.jpg', price: '4,500' },
+            { name: 'Strawberry (Soda)', img: 'strawbery soda.jpg', price: '4,000' },
+            { name: 'Strawberry (Redbull)', img: 'b r.jpg', price: '4,500' },
+            { name: 'Classic (Soda)', img: 'classic mojito soda.jpg', price: '3,500' },
+            { name: 'Classic (Redbull)', img: 'c r.jpg', price: '4,500' }
         ]
     },
     icecream: { 
         title: { ku: 'ئایس کریم', ar: 'آيس كريم', en: 'Ice Cream' }, 
         icon: 'fa-ice-cream',
         items: [
-            { name: 'Ice Cream Luna Bloom', img: 'luna-ice-cream.jpg', price: '4,500' },
-            { name: 'Ice Cream Classic', img: 'calassic-ice-cream.jpg', price: '3,000' }
+            { name: 'Ice Cream Luna Bloom', img: 'luna ice cream.jpg', price: '4,500' },
+            { name: 'Ice Cream Classic', img: 'calassic ice cream.jpg', price: '3,000' }
         ]
     },
     hot: { 
@@ -27,10 +27,10 @@ const menuData ={
             { name: 'Espresso Double', img: 'espresso-double.jpg', price: '4,000' },
             { name: 'Americano', img: 'americano.jpg', price: '4,000' },
             { name: 'Cappuccino', img: 'cappuccino.jpg', price: '4,500' },
-            { name: 'Spanish Latte', img: 'spanish-hot.jpg', price: '4,500' },
-            { name: 'Latte Caramel', img: 'caramel-hot.jpg', price: '4,500' },
+            { name: 'Spanish Latte', img: 'spanish hot.jpg', price: '4,500' },
+            { name: 'Latte Caramel', img: 'caramel hot.jpg', price: '4,500' },
             { name: 'Tea Regular', img: 'tea.jpg', price: '500' },
-            { name: 'Green Tea', img: 'green-tea.jpg', price: '3,500' },
+            { name: 'Green Tea', img: 'green tea.jpg', price: '3,500' },
             { name: 'water', img: 'watter.jpg', price: '500' }
         ]
     },
@@ -39,9 +39,9 @@ const menuData ={
         icon: 'fa-snowflake',
         items: [
             { name: 'Ice Latte', img: '1.jpg', price: '4,000' },
-            { name: 'Spanish Late', img: 'spanish-latte.jpg', price: '4,500' },
-            { name: 'Caramel Latte', img: 'lc.jpg', price: '4,500' },
-            { name: 'Luna Bloon Late', img: 'l-ice.jpg', price: '5,000' },
+            { name: 'Spanish Late', img: 'spanish latte.jpg', price: '4,500' },
+            { name: 'Caramel Latte', img: 'rra.jpg', price: '4,500' },
+            { name: 'Luna Bloon Late', img: 'l ice.jpg', price: '5,000' },
             { name: 'Ice Americano', img: 'a.jpg', price: '4,000' }
         ]
     },
@@ -49,21 +49,21 @@ const menuData ={
         title: { ku: 'بان کێک', ar: 'بان كيك', en: 'Pancake' }, 
         icon: 'fa-layer-group',
         items: [
-            { name: 'Mini Pancake Chocolate', img: 'chocolate-waffle.jpg', price: '4,000' },
-            { name: 'Mini Pancake Pistachio', img: 'fstq-waffle.jpg', price: '4,000' },
-            { name: 'Mini Pancake Lotus', img: 'lutos-waffle.jpg', price: '4,000' },
-            { name: 'Mini Pancake Kinder', img: 'kinder-waffle.jpg', price: '4,500' },
-            { name: 'Mini Pancake Luna Bloom', img: 'luna-waffle.jpg', price: '4,500' }
+            { name: 'Mini Pancake Chocolate', img: 'chocolate waffle.jpg', price: '4,000' },
+            { name: 'Mini Pancake Pistachio', img: 'fstq waffle.jpg', price: '4,000' },
+            { name: 'Mini Pancake Lotus', img: 'lutos waffle.jpg', price: '4,000' },
+            { name: 'Mini Pancake Kinder', img: 'kinder waffle.jpg', price: '4,500' },
+            { name: 'Mini Pancake Luna Bloom', img: 'luna waffle.jpg', price: '4,500' }
         ]
     },
     cupcake: { 
         title: { ku: 'کەب کێک', ar: 'كب كيك', en: 'Cupcake' }, 
         icon: 'fas fa-cake-candles',
         items: [
-            { name: 'Cupcake Luna Bloom', img: 'luna-cupcake.jpg', price: '4,500' },
-            { name: 'Cupcake Chocolate', img: 'chocolate-pan.jpg', price: '4,000' },
-            { name: 'Cupcake Vanilla', img: 'vanila-pan.jpg', price: '4,000' },
-            { name: 'Cupcake Caramel', img: 'caramel-pancake.jpg', price: '4,000' }
+            { name: 'Cupcake Luna Bloom', img: 'luna cupcake.jpg', price: '4,500' },
+            { name: 'Cupcake Chocolate', img: 'chocolate pan.jpg', price: '4,000' },
+            { name: 'Cupcake Vanilla', img: 'vanila pan.jpg', price: '4,000' },
+            { name: 'Cupcake Caramel', img: 'caramel pancake.jpg', price: '4,000' }
         ]
     },
     bakery: { 
@@ -80,10 +80,10 @@ const menuData ={
         items: [
             { name: 'Waffle Luna Bloom', img: 'pumpkin-waffles-12.jpg', price: '4,500' },
             { name: 'Waffle Chocolate', img:'waf.jpg', price: '4,500' },
-            { name: 'Waffle Fruits', img: 'FB-10.jpg', price: '5,000' },
+            { name: 'Waffle Fruits', img: 'aaa 10.jpg', price: '5,000' },
             { name: 'Waffle Pistachio', img: 'p.jpg', price: '4,000' },
-            { name: 'Waffle Kinder', img: 'k-ww.jpg', price: '4,500' },
-            { name: 'Waffle Lotus', img: 'l-ww.jpg', price: '4,000' }
+            { name: 'Waffle Kinder', img: 'k ww.jpg', price: '4,500' },
+            { name: 'Waffle Lotus', img: 'l ww.jpg', price: '4,000' }
         ]
     },
     juice: { 
@@ -94,7 +94,7 @@ const menuData ={
             { name: 'Pineapple Juice', img: 'pineapple.jpg', price: '4,000' },
             { name: 'Lemonade', img: 'lemonade.jpg', price: '3,500' },
             { name: 'Banana Milk', img: 'milk.jpg', price: '4,500' },
-            { name: 'Smoothie Mixed', img: 'smoothi-mix.jpg', price: '5,000' },
+            { name: 'Smoothie Mixed', img: 'smoothi mix.jpg', price: '5,000' },
             { name: 'Smoothie Mango', img: 'mango.jpg', price: '5,000' },
             { name: 'Smoothie Kiwi', img: 'kiwi.jpg', price: '4,000' }
         ]
